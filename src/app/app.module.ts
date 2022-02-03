@@ -5,14 +5,11 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PrimeNGModule } from 'src/prime-ng.module';
-import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    ButtonComponent,
-
   ],
   imports: [
     BrowserModule,
