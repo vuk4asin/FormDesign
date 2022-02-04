@@ -6,20 +6,10 @@
       "password": 1234
     },
     {
-      "username": "Alex",
-      "password": "12345",
+      "username": "Anastasija",
+      "email": "anastasijaa.mirkovic@gmail.com",
+      "password": "Groncilo9799",
       "id": 2
-    },
-    {
-      "username": "Philip",
-      "password": "060",
-      "id": 3
-    },
-    {
-      "username": "Alex",
-      "email": "Alex@Alex.com",
-      "password": "1234456789",
-      "id": 4
     }
   ]
 }

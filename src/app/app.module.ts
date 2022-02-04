@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { PrimeNGModule } from 'src/prime-ng.module';
+import { MegaMenuComponent } from './mega-menu/mega-menu.component';
+import { NavBarComponent } from './nav-bar/nav-bar.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
+    MegaMenuComponent,
+    NavBarComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,17 +1,30 @@
+<app-nav-bar></app-nav-bar>
+<app-mega-menu></app-mega-menu>
 <div class='Form'>
     <div class="body">
         <p-menu #menu [popup]="true"></p-menu>
-    
-        <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="username" placeholder="Username" >  
-            <br>
-            <br>
-        <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="email"  placeholder="Email">  
-            <br>
-            <br>
-        <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="password"  placeholder="Password">  
+        <div class="p-col-12 p-mb-2 p-lg-4 p-mb-lg-0">
+            <span class="p-input-icon-left">
+                <i class="pi pi-user"></i>
+                <input type="text" pInputText [(ngModel)]="username" placeholder="Username"/>
+            </span>
+        </div>
+        <br>
+        <div class="p-col-12 p-mb-2 p-lg-4 p-mb-lg-0">
+            <span class="p-input-icon-left">
+                <i class="pi pi-user"></i>
+                <input type="text" pInputText [(ngModel)]="email" placeholder="Email"/>
+            </span>
+        </div>
+        <br>
+        <div class="p-col-12 p-mb-2 p-lg-4 p-mb-lg-0">
+            <span class="p-input-icon-left">
+                <input type="password" pInputText  [(ngModel)]="password" placeholder="Password"/>
+                <i class="pi pi-lock"></i>
+            </span>
+        </div>
         <br>
         <div class="check">
-            <br>
         <p-checkbox name="groupname"></p-checkbox> <label class="label2">Rember me</label>
         </div>
         <br>
@@ -27,7 +40,6 @@
             <i class="pi pi-linkedin" style="font-size: 1.5rem"></i>
             <i class="pi pi-facebook" style="font-size: 1.5rem"></i>
         </div>
-        <br>
         <br>
         <p class="f">FORGOT PASSWORD?</p>
 
