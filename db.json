@@ -9,6 +9,17 @@
       "username": "Alex",
       "password": "12345",
       "id": 2
+    },
+    {
+      "username": "Philip",
+      "password": "060",
+      "id": 3
+    },
+    {
+      "username": "Alex",
+      "email": "Alex@Alex.com",
+      "password": "1234456789",
+      "id": 4
     }
   ]
 }

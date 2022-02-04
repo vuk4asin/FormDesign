@@ -5,12 +5,16 @@
         <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="username" placeholder="Username" >  
             <br>
             <br>
+        <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="email"  placeholder="Email">  
+            <br>
+            <br>
         <input type="text" pInputText class="p-inputtext-sm" [(ngModel)]="password"  placeholder="Password">  
-            <br>
-            <br>
+        <br>
         <div class="check">
+            <br>
         <p-checkbox name="groupname"></p-checkbox> <label class="label2">Rember me</label>
         </div>
+        <br>
         <br>
        <div class="btn">
            <button type="submit"  pButton type="text-button"  (click)="onSubmit()" label="Login" class="p-button-secondary"></button>
